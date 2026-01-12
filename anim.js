@@ -1,22 +1,22 @@
 var lyrics = document.querySelector("#lyrics");
 
-// FRASES BONITAS (AMISTAD, NO ROMANCE)
+// FRASES BONITAS, CERCANAS Y DE AMISTAD
 var lyricsData = [
-  { text: "Me encanta tu pelo, siempre se ve bonito", time: 2 },
-  { text: "Tu sonrisa mejora el ambiente", time: 6 },
-  { text: "Tienes una energía muy linda", time: 10 },
+  { text: "Quería decirte algo bonito, nada más", time: 2 },
+  { text: "Me encanta tu pelo, siempre se ve lindo", time: 6 },
+  { text: "Tu sonrisa tiene algo que calma", time: 10 },
   { text: "La verdad, me matan tus ojos", time: 14 },
-  { text: "Hablar contigo siempre se siente bien", time: 18 },
-  { text: "Eres una persona muy especial", time: 22 },
-  { text: "Me gusta mucho cómo eres", time: 26 },
-  { text: "Eres una estrella, pero tranquila", time: 30 },
-  { text: "Tu forma de ser es muy bonita", time: 34 },
-  { text: "Eres como la flor más linda del jardín", time: 38 },
-  { text: "Tu sonrisa es contagiosa", time: 42 },
-  { text: "Gracias por estar", time: 46 }
+  { text: "Eres una persona muy agradable de tener cerca", time: 18 },
+  { text: "Hablar contigo siempre se siente natural", time: 22 },
+  { text: "Tienes una forma de ser muy bonita", time: 26 },
+  { text: "Eres como una luz tranquila", time: 30 },
+  { text: "Eres una estrella, pero sin darte cuenta", time: 34 },
+  { text: "Eres la flor más bonita del jardín", time: 38 },
+  { text: "Gracias por ser como eres", time: 42 },
+  { text: "Solo quería que supieras eso", time: 46 }
 ];
 
-// TIEMPO MANUAL (NO AUDIO)
+// TIEMPO SIMULADO (SIN AUDIO)
 var currentTime = 0;
 
 function updateLyrics() {
@@ -38,7 +38,7 @@ function updateLyrics() {
 // ACTUALIZA CADA SEGUNDO
 setInterval(updateLyrics, 1000);
 
-// OCULTAR TÍTULO DESPUÉS DE UN TIEMPO
+// OCULTAR EL TÍTULO
 function ocultarTitulo() {
   var titulo = document.querySelector(".titulo");
   titulo.style.animation = "fadeOut 3s ease forwards";
@@ -48,5 +48,4 @@ function ocultarTitulo() {
   }, 3000);
 }
 
-// SE OCULTA A LOS 20 SEGUNDOS
 setTimeout(ocultarTitulo, 20000);
