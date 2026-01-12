@@ -4,34 +4,20 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "At the time", time: 15 },
-  { text: "The whisper of birds", time: 18 },
-  { text: "Lonely before the sun cried", time: 27 },
-  { text: "Fell from the sky", time: 32 },
-  { text: "Like water drops", time: 33 },
-  { text: "Where I'm now? I don't know why", time: 41 },
-  { text: "Nice butterflies in my hands", time: 47 },
-  { text: "Too much light for twilight", time: 54 },
-  { text: "In the mood for the flowers love", time: 59 },
-  { text: "That vision", time: 67 },
-  { text: "Really strong, blew my mind", time: 72 },
-  { text: "Silence Let me see what it was", time: 78 },
-  { text: "I only want to live in clouds", time: 83 },
-  { text: "Where I'm now? I don't know why", time: 91 },
-  { text: "Nice butterflies in my hands", time: 97 },
-  { text: "Too much light for twilight", time: 104 },
-  { text: "In the mood for the flowers love", time: 108 },
-  { text: "At the time", time: 144 },
-  { text: "The whisper of birds", time: 148 },
-  { text: "Lonely before the sun cried", time: 153 },
-  { text: "Fell from the sky", time: 158 },
-  { text: "Like water drops", time: 164 },
-  { text: "Where I'm now? I don't know why", time: 169 },
-  { text: "Nice butterflies in my hands", time: 176 },
-  { text: "Too much light for twilight", time: 183 },
-  { text: "In the mood for the flowers", time: 188 },
-  { text: "Love.", time: 140 },
+  { text: "Me encanta tu pelo", time: 10 },
+  { text: "Siempre es chévere pasar un rato contigo", time: 16 },
+  { text: "Me matan tus ojos", time: 22 },
+  { text: "Contigo las charlas se sienten fáciles", time: 28 },
+  { text: "Tu sonrisa es muy linda", time: 34 },
+  { text: "Me agrada mucho tu forma de ser", time: 40 },
+  { text: "Eres una estrella, siempre destacas", time: 46 },
+  { text: "Da gusto coincidir contigo", time: 52 },
+  { text: "Tu vibra es muy bonita", time: 58 },
+  { text: "Eres la flor más bonita del jardín", time: 64 },
+  { text: "Me cae muy bien hablar contigo", time: 70 },
+  { text: "Siempre traes buena energía", time: 76 }
 ];
+
 
 // Animar las letras
 function updateLyrics() {
